@@ -9,9 +9,9 @@
   font-family: "Overpass", sans-serif;
 }
 
-.body {
-  max-width: 100vw;
-  max-height: 100vh;
+body {
+
+  min-height: 100vh;  /* if this was max height, the card won't be at the center, also removed max-width*/
   font-size: 15px;
   display: flex;
   align-items: center;
