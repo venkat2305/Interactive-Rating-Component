@@ -1,7 +1,7 @@
 ## TO DO
 
 1. when clicked , there's a square while the element is clicked
-2. what's the use of
+2. Add gradient
 
 ## Learnings
 
