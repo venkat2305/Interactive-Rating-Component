@@ -1,5 +1,10 @@
-const form = document.querySelector("form")
+const form = document.getElementById("html-form")
+console.log(form)
+
+let ans = document.querySelector("input[name='my-radio-input']:checked")
+console.log(ans.textContent)
+
 form.addEventListener("submit",function(){
-  const ans = document.querySelector(".input[type='radio']:checked")
-  console.log(ans.value)
+  
+  console.log("venkat")
 })
