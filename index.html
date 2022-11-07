@@ -22,8 +22,7 @@
         <div class="img-container">
           <img src="images/icon-star.svg" alt="icon-star" />
         </div>
-        
-        
+
         <div class="description">
           <h1>How did we do?</h1>
           <p>
@@ -32,26 +31,27 @@
           </p>
         </div>
 
-        <div class="rating-buttons">
-          <div class="rating">1</div>
-          <div class="rating">2</div>
-          <div class="rating">3</div>
-          <div class="rating">4</div>
-          <div class="rating">5</div>
-        </div>
-
-
-        <form><button class="submit">SUBMIT</button></form>
-
-        
+        <form>
+          <div class="form-circles">
+            <input name="my-radio-input"  class="visually-hidden" id="radio1" type="radio" value="1" />
+            <label class="form-button" for="radio1"> 1 </label>
+            <input name="my-radio-input" class="visually-hidden" id="radio2" type="radio" value="2" />
+            <label class="form-button" for="radio2"> 2 </label>
+            <input name="my-radio-input" class="visually-hidden" id="radio3" type="radio" value="3" />
+            <label class="form-button" for="radio3"> 3 </label>
+            <input name="my-radio-input" class="visually-hidden" id="radio4" type="radio" value="4" />
+            <label class="form-button" for="radio4"> 4 </label>
+            <input name="my-radio-input" class="visually-hidden" id="radio5" type="radio" value="5" />
+            <label class="form-button" for="radio5"> 5 </label><br>
+          </div>
+          <input class="submit" type="submit" value="Submit">
+        </form>
       </div>
 
       <div class="container thank-you hidden">
         <img src="images/illustration-thank-you.svg" alt="thank-you" />
+        <p id="change-rating">You selected Add out of 5</p>
 
-          <p id="change-rating">You selected Add out of 5</p>
-
-        
         <h2>Thank you</h2>
         <p>
           We appreciate you taking the time to give a rating. If you ever need
