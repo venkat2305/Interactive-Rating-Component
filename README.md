@@ -2,6 +2,7 @@
 
 1. when clicked , there's a square while the element is clicked
 2. Add gradient
+3. change color of the background of the star
 
 ## Learnings
 
@@ -24,16 +25,19 @@
     - [How TO - Add a Class](https://www.w3schools.com/howto/howto_js_add_class.asp)
     - [How TO - Remove a Class](https://www.w3schools.com/howto/howto_js_remove_class.asp)
     - [How TO - Toggle Class](https://www.w3schools.com/howto/howto_js_toggle_class.asp)
-10.      
-        .rating-card > * + * {
+10.     .rating-card > * + * {
         margin-top: 1rem;
         }
-        
 
     It’s a quick way to add margin top to all the direct children of the card except the first one.This would be the same:
 
-
         .rating-card > *:not(:first-child)
+
     Mainly because it was quicker to write than adding margin on each of your elements individually in browser.
 
     It would be lower CSS specificity if you just added margin top/bottom where you need
+
+[CSS selector _ + _ definition?](https://stackoverflow.com/questions/29989318/css-selector-definition/29989441#29989441)
+
+11. `aria-live` attribute. This means that the thank you content will be announced to screenreader users. This attribute needs to go on its own element that is always present in the DOM, it should not be on an element that is display none / hidden.
+    follow this [link](https://stackoverflow.com/questions/27546070/difference-between-aria-live-assertive-and-aria-live-polite) to know Difference between `aria-live="assertive"` and `aria-live="polite"`
