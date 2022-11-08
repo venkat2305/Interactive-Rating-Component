@@ -11,7 +11,7 @@
 
 body {
   min-height: 100vh; /* if this was max height, the card won't be at the center, also removed max-width*/
-  font-size: 15px;
+  font-size: 0.9375rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,9 +29,8 @@ body {
 
 .container {
   background-color: #1c232d;
-  max-width: 450px;
-  height: 430px;
-  padding: 45px;
+  max-width: 26rem;
+  padding: 2rem;
   border-radius: 25px;
   display: flex;
   justify-content: space-between;
@@ -44,10 +43,10 @@ body {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
+  aspect-ratio: 1;
 }
 
 h1 {
@@ -135,10 +134,11 @@ input[type="radio"] {
 .form-circles {
   display: flex;
   justify-content: space-between;
+  gap: 0.5rem;
 }
 
 .form-button {
-  font-size: 25px;
+
   display: flex;
   text-align: center;
   align-items: center;
@@ -146,10 +146,10 @@ input[type="radio"] {
   background-color: var(--Dark-Blue);
   border-radius: 50%;
   cursor: pointer;
-  margin: 5px;
+  font-size: clamp(1rem, 5vw + 1px, 1.5rem);
   color: white;
-  max-width: 55px;
-  width: 100%;
+  width: 55px;
+  /* width: 100%; */
   margin-bottom: 1rem;
   line-height: 1;
   aspect-ratio: 1;

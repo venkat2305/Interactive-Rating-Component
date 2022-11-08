@@ -1,8 +1,6 @@
 ## TO DO
 
-1. when clicked , there's a square while the element is clicked
-2. Add gradient
-3. change color of the background of the star
+1. change color of the background of the star
 
 ## Learnings
 
@@ -41,3 +39,13 @@
 
 11. `aria-live` attribute. This means that the thank you content will be announced to screenreader users. This attribute needs to go on its own element that is always present in the DOM, it should not be on an element that is display none / hidden.
     follow this [link](https://stackoverflow.com/questions/27546070/difference-between-aria-live-assertive-and-aria-live-polite) to know Difference between `aria-live="assertive"` and `aria-live="polite"`
+12. adding gradient to the container
+13. The `aspect-ratio` CSS property sets a preferred aspect ratio for the box, which will be used in the calculation of auto sizes and some other layout functions.[LINK1](https://css-tricks.com/almanac/properties/a/aspect-ratio/) [LINK2](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio)
+14. `clamp(minimum, preferred, maximum);` [LINK](https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/)
+    - linearly scale text between a set of minimum and maximum sizes as the viewport’s width increases, with the intent of making its behavior at different screen sizes more predictable — All in a single line of CSS, thanks to clamp().
+    - The value it returns will be the preferred value, until that preferred value is lower than the minimum value (at which point the minimum value will be returned) or higher than the maximum value (at which point the maximum will be returned).
+15. The gap property defines the size of the gap between the rows and columns. It is a shorthand for the following properties:
+    - row-gap
+    - column-gap
+
+
