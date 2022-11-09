@@ -1,6 +1,7 @@
 ## TO DO
 
 1. change color of the background of the star
+2. Improve the style for thank-you-state page
 
 ## Learnings
 
