@@ -36,7 +36,7 @@ body {
   justify-content: space-between;
   flex-direction: column;
   margin: 1rem;
-  background: linear-gradient(to top right , #171e28,#202731);
+  background: linear-gradient(to top right, #171e28, #202731);
 }
 
 .img-container {
@@ -138,7 +138,6 @@ input[type="radio"] {
 }
 
 .form-button {
-
   display: flex;
   text-align: center;
   align-items: center;
