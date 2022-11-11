@@ -147,8 +147,8 @@ input[type="radio"] {
   cursor: pointer;
   font-size: clamp(1rem, 5vw + 1px, 1.5rem);
   color: white;
-  width: 55px;
-  /* width: 100%; */
+  max-width: 3.438rem;
+  width: 100%;
   margin-bottom: 1rem;
   line-height: 1;
   aspect-ratio: 1;
