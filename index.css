@@ -127,9 +127,9 @@ input[type="radio"] {
   color: currentColor;
 }
 
-.hidden {
+/* .hidden {
   display: none;
-}
+} */
 
 .form-circles {
   display: flex;
